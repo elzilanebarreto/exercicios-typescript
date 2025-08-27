@@ -16,5 +16,10 @@
     "url": "https://github.com/elzilanebarreto/exercicios-typescript/issues"
   },
   "homepage": "https://github.com/elzilanebarreto/exercicios-typescript#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10"
+  }
 }
