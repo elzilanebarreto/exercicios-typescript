@@ -6,7 +6,7 @@
 import leia = require('readline-sync');
 
 let valoresInteiros: Set<number> = new Set<number>();
-let numero;
+let numero: number;
 
 for(let i = 0; i < 10; i++){
     numero = leia.questionInt(`Digite o valor ${i + 1}.: `);

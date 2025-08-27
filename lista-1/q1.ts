@@ -7,7 +7,7 @@
 import leia = require('readline-sync');
 
 let listaCores: Array<string> = new Array<string>();
-let cor;
+let cor: string;
 
 // Adicioando cor na lista de cores
 for (let i = 0; i < 5; i++){

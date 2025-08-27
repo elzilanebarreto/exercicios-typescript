@@ -8,7 +8,7 @@ deverá exibir na tela a mensagem: O número NN não foi encontrado!
 import leia = require('readline-sync');
 
 let listaNumeros: Array<number> = new Array<number>();
-let numero, procurandoNumero;
+let numero: number, procurandoNumero: number;
 
 for(let i = 0; i < 10; i++){
     numero = leia.questionInt('Informe o numero inteiro: ');

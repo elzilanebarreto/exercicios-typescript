@@ -5,7 +5,7 @@ import questionInt = require('readline-sync');
 import leia = require('readline-sync');
 
 let valoresInteiro: Set<number> = new Set<number>();
-let valor, procurandoValor, situacao = '';
+let valor: number, procurandoValor: number, situacao: string;
 
 for(let i = 0; i < 10; i++){
     valor = leia.questionInt('Digite o numero inteiro: ');
