@@ -17,12 +17,3 @@ console.log('Set não ordenado: ');
 for(let valor of valoresInteiros){
     console.log(valor);
 }
-
-let ordenarSet = Array.from(valoresInteiros); // Convertendo um Set para um Array
-ordenarSet.sort(function(a, b) {return a - b;}); // Função para ordenar de forma crescente os valores
-
-console.log('Listar dados do Set ordenados: ');
-for(let valor of ordenarSet){
-    console.log(valor);
-}
-

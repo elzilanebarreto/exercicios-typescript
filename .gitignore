@@ -3,6 +3,9 @@
 /node_modules
 nodemon.json
 
+#Set ordenado
+lista-1/set_ordenado.txt
+
 # Logs
 logs
 *.log
